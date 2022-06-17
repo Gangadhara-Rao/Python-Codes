@@ -7,8 +7,8 @@
 #def person(name, age = 18):
 #    print(name)
 #    print(age)
-#person(name = 'ranganadh', age = 23)
-#person('ranganadh', 28)
+#person(name = 'Gangadhar', age = 23)
+#person('Gangadhar', 28)
 
 #def sum(*b):
 #    c = 0
@@ -23,4 +23,4 @@ def person(name, **data):
     print(name)
     for i, j in data.items():
         print(i,j)
-person('ranganadh', age = 23, city = 'ap', mob = 12345)
+person('Gangadhar', age = 23, city = 'ap', mob = 12345)
